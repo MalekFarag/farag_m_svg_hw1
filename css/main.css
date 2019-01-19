@@ -5,4 +5,41 @@
 	display: none;
 }
 
+body{
+	background-color: #f2f2f2;
+	font-family: helvetica;
+}
 
+#topBar{
+	background-color: #2ECC71;
+	height: 25px;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#mainHeader{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#mainNav ul li{
+	display: inline;
+	margin: 30px;
+	color: #2ECC71;
+	font-size: 18px;
+}
+
+#mainArea{
+	margin: 30px;
+}
+
+#mainArea h2{
+	font-size: 30px;
+}
