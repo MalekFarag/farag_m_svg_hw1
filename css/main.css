@@ -6,8 +6,8 @@
 }
 
 body{
-	background-color: #f2f2f2;
 	font-family: helvetica;
+	background-color: #f9f9f9;
 }
 
 #topBar{
@@ -19,6 +19,7 @@ body{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
+	box-shadow: 5px 10px 9px #dddddd;
 }
 
 #mainHeader{
@@ -42,4 +43,34 @@ body{
 
 #mainArea h2{
 	font-size: 30px;
+}
+
+#iconArea img{
+	border: 3px solid;
+	border-color: black;
+	padding: 8px;
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+}
+
+.iconArea{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+
+footer{
+	background-color: #2ECC71;
+	display: flex;
+	align-items: center; 
+	height: 75px;
+}
+
+footer ul li{
+	color: black;
+	font-size: 16px;
+	margin: 20px;
+	display: inline;
 }
