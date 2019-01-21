@@ -10,6 +10,10 @@ body{
 	background-color: #f9f9f9;
 }
 
+a{
+	text-decoration: none;
+}
+
 #topBar{
 	background-color: #2ECC71;
 	height: 25px;
@@ -45,7 +49,7 @@ body{
 	font-size: 30px;
 }
 
-#iconArea img{
+#iconArea object{
 	border: 3px solid;
 	border-color: black;
 	padding: 8px;
