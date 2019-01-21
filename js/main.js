@@ -11,3 +11,19 @@
 
 //console message!
 console.log('JavaScript file is linked.');
+
+
+(() => {  //anonymous function***
+
+	console.log('boi');
+
+	var badge = document.querySelector('img') //'querySelector'slects 1st tag or if you use '.' or '#', selects class or id.
+	//'querySelctorAll' selects all '____'
+	function logBadgeId() {
+		console.log(this.id);
+		debugger; // 'dubugger' stops code from executing so you can look at it!
+	}
+
+	badge.addEventListener('click', logBadgeId); //every time you 'click' it plays the function (for the var 'badge' badge = 1st 'img' tag)
+	
+ })();
